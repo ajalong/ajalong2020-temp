@@ -1,0 +1,93 @@
+@font-face {
+  font-family: Inter;
+  src: url(Inter-Regular.woff2) format('woff2'),
+    url(fonts/Inter-Regular.woff) format('woff');
+}
+
+body {
+  padding: 0.5rem 6%;
+}
+
+header p {
+  display: inline;
+}
+
+header a {
+  color: #e65758;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #ffffff;
+}
+
+header p:first-child {
+  float: left;
+}
+
+header p:last-child {
+  float: right;
+}
+
+main {
+  padding-top: 2rem;
+}
+
+p {
+  color: #ffffff;
+  font-family: Inter, san-serif;
+  font-size: 13.3333px;
+  max-width: 40em;
+}
+
+.large-text {
+  font-size: 1.1rem;
+  line-height: 1.45;
+  margin-top: 2rem;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #e65758;
+}
+
+/* Tablet */
+@media (min-width: 48em) {
+  p {
+    font-size: 112.5%;
+  }
+
+  main {
+    padding-top: 3.2rem;
+  }
+
+  .large-text {
+    font-size: 2rem;
+    line-height: 1.45;
+    margin-top: 2.1rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 64em) {
+  body {
+    padding: 0.5rem 3rem;
+  }
+
+  p {
+    font-size: 112.5%;
+  }
+
+  main {
+    padding-top: 5rem;
+  }
+
+  .large-text {
+    font-size: 2.5rem;
+    line-height: 1.45;
+    margin-top: 2.8rem;
+  }
+}
