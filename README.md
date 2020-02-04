@@ -1,3 +1,3 @@
 # ajalong2020-temp
 
-A single temporary page until I make the rest of the site.
+A temporary page until I finish the full site. Has a funky css animated background!
